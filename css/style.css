@@ -535,7 +535,7 @@ main {
 }
 
 .wrapper6 {
-	max-width: 1419px;
+	max-width: 1251px;
 	width: 100%;
 	min-height: 771px;
 	display: flex;
@@ -577,15 +577,15 @@ main {
 
 .sixth-floor-info {
 	width: 100%;
-	height: 64%;
+	min-height: 500px;
 	display: flex;
 	justify-content: space-between;
+	align-items: stretch;
 	flex-wrap: wrap;
 }
 
 .feedback {
 	width: 50%;
-	min-height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -594,6 +594,7 @@ main {
 .field-wrapper {
 	display: flex;
 	justify-content: space-between;
+	margin: 1vh 0;
 }
 
 .field {
@@ -616,7 +617,6 @@ main {
 }
 
 .field2 {
-	width: 98%;
 	height: 252px;
 	background-color: #dddddd;
 	font-family: 'Open Sans';
@@ -625,6 +625,7 @@ main {
 	display: flex;
 	align-items: center;
 	color: #000000;
+	margin: 1vh 0;
 }
 
 .button6 {
@@ -642,11 +643,11 @@ main {
 	letter-spacing: 0.317046px;
 	text-transform: uppercase;
 	color: #FFFFFF;
+	margin: 1vh 0;
 }
 
 .contacts {
 	width: 40%;
-	height: 100%;
 	background-color: #2D2D2D;
 	color: #FFFFFF;
 	display: flex;
